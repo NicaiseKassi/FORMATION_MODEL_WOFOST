@@ -42,20 +42,27 @@ FORMATION_MODEL_WOFOST/
 ### Créer l'environnement
 
 ```bash
-# Créer l'environnement à partir du fichier exporté
+# Créer l'environnement à partir du fichier exporté (recommandé)
 conda env create -f py3_pcse_export.yml
-
-# Ou créer l'environnement avec les packages essentiels
-conda env create -f wofost-projects/py3_pcse.yml
 
 # Activer l'environnement
 conda activate py3_pcse
 ```
 
+**Note** : Le fichier `py3_pcse_export.yml` contient l'environnement complet avec :
+
+- Python 3.10.18
+- PCSE 6.0.9 (WOFOST)
+- Jupyter & ipykernel 7.0.1
+- Toutes les dépendances scientifiques (numpy, pandas, matplotlib, xarray, netcdf4, etc.)
+
 ### Configuration du kernel Jupyter
 
 ```bash
-# Enregistrer le kernel pour Jupyter
+# Le kernel est déjà configuré avec l'environnement exporté !
+# Pour vérifier : jupyter kernelspec list
+
+# Si besoin de le réinstaller :
 python -m ipykernel install --user --name=py3_pcse --display-name="Python 3.10 (py3_pcse)"
 ```
 
