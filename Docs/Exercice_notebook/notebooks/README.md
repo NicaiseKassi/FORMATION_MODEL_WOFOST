@@ -15,6 +15,7 @@ Ils vous guident pas à pas dans le processus de calibration de WOFOST pour des 
 ## 🎯 Objectifs pédagogiques
 
 Apprendre à :
+
 - ✅ Configurer et lancer des simulations WOFOST
 - ✅ Calibrer la phénologie (TSUM1, TSUM2)
 - ✅ Ajuster les paramètres de croissance (LAI, biomasse)
@@ -28,25 +29,25 @@ Apprendre à :
 
 ### 🌱 Phase 1 : Production potentielle (Exercices 1-7)
 
-| # | Notebook | Objectif | Durée |
-|---|----------|----------|-------|
-| 1 | [Exercice_01_Familiarisation_avec_WOFOST.ipynb](Exercice_01_Familiarisation_avec_WOFOST.ipynb) | Première simulation de blé en conditions optimales | 30 min |
-| 2 | [Exercice_02_Calibration_de_la_phenologie_du_ble.ipynb](Exercice_02_Calibration_de_la_phenologie_du_ble.ipynb) | Ajuster TSUM1 et TSUM2 pour dates phénologiques | 45 min |
-| 3 | [Exercice_03_Creer_un_nouveau_fichier_crop.ipynb](Exercice_03_Creer_un_nouveau_fichier_crop.ipynb) | Créer fichier crop avec paramètres calibrés | 20 min |
-| 4 | [Exercice_04_Interception_lumineuse_et_biomasse_potentielle.ipynb](Exercice_04_Interception_lumineuse_et_biomasse_potentielle.ipynb) | Analyser LAI, interception lumineuse et biomasse | 60 min |
-| 5 | [Exercice_05_Calibration_du_LAI_et_de_la_biomasse.ipynb](Exercice_05_Calibration_du_LAI_et_de_la_biomasse.ipynb) | Ajuster SLA et AMAXTB pour LAI et biomasse | 45 min |
-| 6 | [Exercice_06_Exercice_6_(Non_documente).ipynb](Exercice_06_Exercice_6_(Non_documente).ipynb) | *Exercice non documenté dans le PDF* | - |
-| 7 | [Exercice_07_Distribution_des_assimilats.ipynb](Exercice_07_Distribution_des_assimilats.ipynb) | Calibrer partitionnement pour indice de récolte | 45 min |
+| #   | Notebook                                                                                                                             | Objectif                                           | Durée  |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------- | ------ |
+| 1   | [Exercice_01_Familiarisation_avec_WOFOST.ipynb](Exercice_01_Familiarisation_avec_WOFOST.ipynb)                                       | Première simulation de blé en conditions optimales | 30 min |
+| 2   | [Exercice_02_Calibration_de_la_phenologie_du_ble.ipynb](Exercice_02_Calibration_de_la_phenologie_du_ble.ipynb)                       | Ajuster TSUM1 et TSUM2 pour dates phénologiques    | 45 min |
+| 3   | [Exercice_03_Creer_un_nouveau_fichier_crop.ipynb](Exercice_03_Creer_un_nouveau_fichier_crop.ipynb)                                   | Créer fichier crop avec paramètres calibrés        | 20 min |
+| 4   | [Exercice_04_Interception_lumineuse_et_biomasse_potentielle.ipynb](Exercice_04_Interception_lumineuse_et_biomasse_potentielle.ipynb) | Analyser LAI, interception lumineuse et biomasse   | 60 min |
+| 5   | [Exercice_05_Calibration_du_LAI_et_de_la_biomasse.ipynb](Exercice_05_Calibration_du_LAI_et_de_la_biomasse.ipynb)                     | Ajuster SLA et AMAXTB pour LAI et biomasse         | 45 min |
+| 6   | [Exercice*06_Exercice_6*(Non_documente).ipynb](<Exercice_06_Exercice_6_(Non_documente).ipynb>)                                       | _Exercice non documenté dans le PDF_               | -      |
+| 7   | [Exercice_07_Distribution_des_assimilats.ipynb](Exercice_07_Distribution_des_assimilats.ipynb)                                       | Calibrer partitionnement pour indice de récolte    | 45 min |
 
 ### 💧 Phase 2 : Production limitée par l'eau (Exercices 8-12)
 
-| # | Notebook | Objectif | Durée |
-|---|----------|----------|-------|
-| 8 | [Exercice_08_Disponibilite_en_eau.ipynb](Exercice_08_Disponibilite_en_eau.ipynb) | Comprendre la balance hydrique et stress hydrique | 45 min |
-| 9 | [Exercice_09_Sensibilite_aux_conditions_initiales_d'eau.ipynb](Exercice_09_Sensibilite_aux_conditions_initiales_d'eau.ipynb) | Impact de l'eau initiale (SMLIM, WAV) | 30 min |
-| 10 | [Exercice_10_Sensibilite_à_la_capacite_de_retention_du_sol.ipynb](Exercice_10_Sensibilite_à_la_capacite_de_retention_du_sol.ipynb) | Effet du type de sol sur le rendement | 40 min |
-| 11 | [Exercice_11_Creer_un_nouveau_fichier_sol.ipynb](Exercice_11_Creer_un_nouveau_fichier_sol.ipynb) | Créer fichier soil avec paramètres mesurés | 20 min |
-| 12 | [Exercice_12_Calibration_de_la_production_limitee_par_l'eau.ipynb](Exercice_12_Calibration_de_la_production_limitee_par_l'eau.ipynb) | Calibration finale en conditions de stress | 60 min |
+| #   | Notebook                                                                                                                             | Objectif                                          | Durée  |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------- | ------ |
+| 8   | [Exercice_08_Disponibilite_en_eau.ipynb](Exercice_08_Disponibilite_en_eau.ipynb)                                                     | Comprendre la balance hydrique et stress hydrique | 45 min |
+| 9   | [Exercice_09_Sensibilite_aux_conditions_initiales_d'eau.ipynb](Exercice_09_Sensibilite_aux_conditions_initiales_d'eau.ipynb)         | Impact de l'eau initiale (SMLIM, WAV)             | 30 min |
+| 10  | [Exercice*10_Sensibilite*à_la_capacite_de_retention_du_sol.ipynb](Exercice_10_Sensibilite_à_la_capacite_de_retention_du_sol.ipynb)   | Effet du type de sol sur le rendement             | 40 min |
+| 11  | [Exercice_11_Creer_un_nouveau_fichier_sol.ipynb](Exercice_11_Creer_un_nouveau_fichier_sol.ipynb)                                     | Créer fichier soil avec paramètres mesurés        | 20 min |
+| 12  | [Exercice_12_Calibration_de_la_production_limitee_par_l'eau.ipynb](Exercice_12_Calibration_de_la_production_limitee_par_l'eau.ipynb) | Calibration finale en conditions de stress        | 60 min |
 
 **⏱️ Durée totale estimée : 7-8 heures**
 
@@ -77,6 +78,7 @@ jupyter lab
 ### Structure d'un notebook
 
 Chaque notebook contient :
+
 - 🎯 **Objectif** : Ce que vous allez apprendre
 - 📖 **Instructions** : Étapes détaillées
 - ⚙️ **Concepts clés** : Notions importantes
@@ -88,6 +90,7 @@ Chaque notebook contient :
 ## 📊 Données nécessaires
 
 Les exercices utilisent :
+
 - **Données météo** : Wageningen 1973 (NL1.973)
 - **Fichier crop** : WWH102.cab (blé d'hiver)
 - **Fichier soil** : EC1.new, EC2.new, EC3.new
@@ -100,11 +103,13 @@ Ces fichiers sont référencés dans le PDF source.
 ## 📚 Ressources
 
 ### Documents de référence
+
 - 📄 [Hefei_Wofost_Training_Exercises.pdf](../Hefei_Wofost_Training_Exercises.pdf) - Document source
 - 🌐 [Documentation PCSE](https://pcse.readthedocs.io/)
 - 🌐 [WOFOST à Wageningen](http://www.wofost.wur.nl)
 
 ### Fichiers de configuration
+
 - Fichiers crop : `../../wofost-projects/data/crop/`
 - Fichiers soil : `../../wofost-projects/data/soil/`
 - Fichiers météo : `../../wofost-projects/data/meteo/`
@@ -122,7 +127,7 @@ Ces fichiers sont référencés dans le PDF source.
 ✅ Analyser la balance hydrique  
 ✅ Créer des fichiers crop et soil personnalisés  
 ✅ Interpréter les sorties de WOFOST  
-✅ Valider un modèle avec des observations  
+✅ Valider un modèle avec des observations
 
 ---
 
@@ -139,16 +144,19 @@ Ces fichiers sont référencés dans le PDF source.
 ## 🐛 Problèmes courants
 
 ### Erreur d'import PCSE
+
 ```bash
 pip install pcse
 ```
 
 ### Kernel py3_pcse non trouvé
+
 ```bash
 python -m ipykernel install --user --name=py3_pcse --display-name="Python 3.10 (py3_pcse)"
 ```
 
 ### Fichiers de données manquants
+
 Vérifiez les chemins dans `../../wofost-projects/data/`
 
 ---
@@ -165,5 +173,6 @@ Formation WOFOST - Octobre 2025
 Matériel pédagogique - Usage éducatif
 
 Basé sur le travail de :
+
 - Joost Wolf (Wageningen University)
 - Allard de Wit (Alterra, WUR)
