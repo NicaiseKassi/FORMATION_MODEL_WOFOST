@@ -9,6 +9,7 @@ Ce dépôt contient les matériaux de formation pour l'utilisation du modèle WO
 ## 🌾 À propos de WOFOST
 
 WOFOST est un modèle de simulation de croissance des cultures développé par l'Université de Wageningen. Il permet de simuler la croissance et le développement des cultures en fonction de :
+
 - Conditions météorologiques
 - Propriétés du sol
 - Caractéristiques des cultures
@@ -34,6 +35,7 @@ FORMATION_MODEL_WOFOST/
 ## 🛠️ Installation
 
 ### Prérequis
+
 - Anaconda ou Miniconda
 - Python 3.10
 
@@ -95,9 +97,104 @@ jupyter lab
 - [Documentation PCSE](https://pcse.readthedocs.io/)
 - [WOFOST Control Centre](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/open-teelten/Models/WOFOST.htm)
 
-## 👤 Auteur
+## � Workflow Git
 
-Kassi - Formation WOFOST
+Ce projet utilise une stratégie de branches pour gérer le développement :
+
+### Structure des branches
+
+```
+main (production)  ← Code stable et testé
+  ↑
+  │ (merge via Pull Request)
+  │
+dev (développement) ← Développement actif
+```
+
+### Workflow de développement
+
+#### 1️⃣ Travailler sur la branche dev
+
+```bash
+# Se positionner sur dev (branche de développement)
+git checkout dev
+
+# Vérifier les modifications
+git status
+
+# Ajouter les fichiers modifiés
+git add .
+# ou ajouter des fichiers spécifiques
+git add fichier1.py fichier2.ipynb
+
+# Commiter avec un message descriptif
+git commit -m "feat: ajout de la simulation pour le maïs"
+
+# Pousser vers GitHub
+git push origin dev
+```
+
+#### 2️⃣ Merger dev vers main (quand tout est validé)
+
+```bash
+# Se positionner sur main
+git checkout main
+
+# Mettre à jour main depuis GitHub
+git pull origin main
+
+# Merger la branche dev dans main
+git merge dev
+
+# Pousser les changements vers GitHub
+git push origin main
+
+# Retourner sur dev pour continuer le développement
+git checkout dev
+```
+
+#### 3️⃣ Commandes utiles
+
+```bash
+# Voir toutes les branches
+git branch -a
+
+# Voir les différences entre dev et main
+git diff main..dev
+
+# Voir l'historique des commits
+git log --oneline --graph --all
+
+# Annuler des modifications non commitées
+git restore fichier.py
+
+# Voir le statut du dépôt
+git status
+```
+
+### Convention de messages de commit
+
+- `feat:` - Nouvelle fonctionnalité
+- `fix:` - Correction de bug
+- `docs:` - Modification de documentation
+- `refactor:` - Refactorisation du code
+- `data:` - Ajout/modification de données
+- `notebook:` - Modification de notebooks
+
+**Exemples :**
+
+```bash
+git commit -m "feat: ajout simulation blé d'hiver"
+git commit -m "fix: correction du calcul de biomasse"
+git commit -m "docs: mise à jour du README avec workflow Git"
+git commit -m "data: ajout données météo Dakar 2024"
+```
+
+## �👤 Auteur
+
+**Nicaise Kassi** - Formation WOFOST
+
+📧 Contact : [GitHub](https://github.com/NicaiseKassi)
 
 ## 📅 Date
 
